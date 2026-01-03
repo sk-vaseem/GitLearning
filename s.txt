@@ -1,0 +1,29 @@
+create database practicedb;
+ 
+use practicedb;
+ 
+create table Book_Details(id int primary key, book title varchar(50), book_publisher varchar(58), book_isbn varchar(20), book_pages int, book year bigint);
+ 
+INSERT INTO Book_Details (id, book title, book_publisher, book isbn, book_pages, book year)
+ 
+VALUES
+ 
+(1, 'The Silent Forest', 'Greenleaf Press', '9781234567890', 329, 2015),
+ 
+(2, 'Journey to the stars', 'cosmos Publications', '9780987654321', 280, 2018),
+ 
+(3, Mystery of the Lake', 'Bluesky Publishers', '9781112223334', 150, 2012),
+ 
+(4, Modern Computing', 'Techworld Media', '9794445556667', 500, 2828),
+ 
+(5, History of civilizations', 'Global Books Ltd', '9787778889990', 640, 2010),
+ 
+(6, Cooking Made Easy', 'Kitchenworks', '9781357913579', 200, 2019),
+ 
+(7, Adventures in Africa', 'Travelogue House', '9782468024688, 358, 2016), |
+ 
+(8, The Art of Painting', 'creative minds", '9783141592653', 220, 2013),
+ 
+(9, 'Business Strategies', 'Enterprise Press', '9781617181920', 410, 2021),
+ 
+(10, Poems of the Heart', 'Literary Circle', '9782021222324, 128, 2008);
